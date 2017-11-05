@@ -12,4 +12,4 @@ f the directory `documents` is located in the pwd(present working directory))
 ## Examples
 `ls`
 `ls -a` lists al the directories even the hidden ones
-
+~

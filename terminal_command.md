@@ -1,4 +1,4 @@
-# CD - change directory
+ # CD - change directory
 `cd <path to directory>`
 Change into a directory specified by the directory
 ## Examples
@@ -9,6 +9,7 @@ f the directory `documents` is located in the pwd(present working directory))
 `cd /` changes to the root directory
 
 #LS- list the directories and files within a directory
+##Examples
 'ls'
 'ls -a' lists al the directories even the hidden ones
 

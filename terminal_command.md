@@ -11,5 +11,5 @@ f the directory `documents` is located in the pwd(present working directory))
 # LS- list the directories and files within a directory
 ## Examples
 `ls`
-`ls -a` lists al the directories even the hidden ones
-~
+
+`ls -a` lists al the directories even the hidden one

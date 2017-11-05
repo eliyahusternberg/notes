@@ -4,6 +4,7 @@ Change into a directory specified by the directory
 ## Examples
 `cd documents` to change into the documents directory (this command only works i
 f the directory `documents` is located in the pwd(present working directory))
+
 `cd` to get to the home directory  
 
 `cd ~` to get to the home directory

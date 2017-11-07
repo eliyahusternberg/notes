@@ -4,13 +4,13 @@
 
 `git init`
 
-#GIT STATUS - see the status of the repository thatwas created
+# GIT STATUS - see the status of the repository that was created
 
 ## Example
 
 `git status`
 
-GIT ADD - track the repositorty
+# GIT ADD - track the repository
 
 ## Example
 

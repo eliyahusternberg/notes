@@ -11,8 +11,27 @@ f the directory `documents` is located in the pwd(present working directory))
 
 `cd /` changes to the root directory
 
-# LS- list the directories and files within a directory
+# LS - list the directories and files within a directory
+
 ## Examples
 `ls`
 
-`ls -a` lists al the directories even the hidden one
+`ls -a` lists all the directories even the hidden one
+
+# CAT - it spits out whaever is in the file 
+
+## Examples
+
+`cat <file>` spits out whatever is in that file
+
+# VIM -create a new file
+
+## Examples
+
+`vim <name of file>`to create a new file
+
+# MKDIR - to make anew directory
+
+## Examples
+
+`Mkdir <name of dirictory>` to make a new directory

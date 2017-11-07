@@ -18,7 +18,7 @@ f the directory `documents` is located in the pwd(present working directory))
 
 `ls -a` lists all the directories even the hidden one
 
-# CAT - it spits out whaever is in the file 
+# CAT - spits out whatever is in the file 
 
 ## Examples
 
@@ -30,7 +30,7 @@ f the directory `documents` is located in the pwd(present working directory))
 
 `vim <name of file>`to create a new file
 
-# MKDIR - to make anew directory
+# MKDIR - to make a new directory
 
 ## Examples
 

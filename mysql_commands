@@ -1,12 +1,12 @@
-# Mysql
+# MYSQL
 
-`Mysql -u root -p then put in password`  do start mysql
+`mysql -u root -p then put in password`  do start mysql
 
-`Show database;` to show what databases you have
+`show database;` to show what databases you have
 
-`Create Database;` to create a database 
+`create Database;` to create a database 
 
-`Use <database name>;` to use the database
+`use <database name>;` to use the database
 
 `create table <table name> (
 <column name> <column type> <optional specification>, 
@@ -16,8 +16,8 @@
 <column name> <column type> <optional specification>
 );` to create a table
 
- options for column type:
-`int = numbers
+`options for column type:
+int = numbers
 VARCHAR(<length>)
 DATE format yyyy-mm-dd 
  options for optional specification:

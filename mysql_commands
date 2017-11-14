@@ -1,4 +1,4 @@
-#Mysql
+# Mysql
 
 `Mysql -u root -p then put in password`  do start mysql
 
@@ -8,7 +8,7 @@
 
 `Use <database name>;` to use the database
 
-`Create table <table name> (
+`create table <table name> (
 <column name> <column type> <optional specification>, 
 <column name> <column type> <optional specification>,
 <column name> <column type> <optional specification>,
@@ -17,19 +17,19 @@
 );` to create a table
 
  options for column type:
-INT = numbers
+`int = numbers
 VARCHAR(<length>)
 DATE format yyyy-mm-dd 
  options for optional specification:
 NOT NULL 
 PRIMARY KEY 
 AUTO_INCREMENT
-FORIEGN KEY
+foriegn key`
 
-`Describe <table name>` shows contents of table
+`describe <table name>` shows contents of table
 
 
-`Insert into  <table name> (
+`insert into  <table name> (
 <column name>,
 <column name>,
 <column name>,
@@ -45,22 +45,22 @@ Values
 );` to insert info into the table
 
 
-`Alter table <tablename> Modify <columnname> <column type> <optoinal specifications>;` ;to change the type or  optoinal specifications
+`alter table <tablename> Modify <columnname> <column type> <optoinal specifications>;` ;to change the type or  optoinal specifications
 
-`Alter table <table name> Add <column name> <column type> <optional specification>;` to make changes to the table
+`alter table <table name> Add <column name> <column type> <optional specification>;` to make changes to the table
  
-`Alter table drop  column <table name> DROP COLUMN <column name>;` to drop a column from a database
+`alter table drop  column <table name> DROP COLUMN <column name>;` to drop a column from a database
 
 
-`Select <column name> from <table name>;` to select a column in the table
+`select <column name> from <table name>;` to select a column in the table
 
-`Select * from <table name>;` * = everything  to see all the column in the table 
+`select * from <table name>;` * = everything  to see all the column in the table 
 
 `select <column name> from <table name> where <conditoin>;`
 
-##Examples
+## Examples
 
-select * from membership where name is like "b%"
+`select * from membership where name is like "b%"`	
 
-select *  from membership where paid = "no
+`select *  from membership where paid = "no"`
 "

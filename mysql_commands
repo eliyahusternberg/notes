@@ -1,0 +1,66 @@
+#Mysql
+
+`Mysql -u root -p then put in password`  do start mysql
+
+`Show database;` to show what databases you have
+
+`Create Database;` to create a database 
+
+`Use <database name>;` to use the database
+
+`Create table <table name> (
+<column name> <column type> <optional specification>, 
+<column name> <column type> <optional specification>,
+<column name> <column type> <optional specification>,
+<column name> <column type> <optional specification>, 
+<column name> <column type> <optional specification>
+);` to create a table
+
+ options for column type:
+INT = numbers
+VARCHAR(<length>)
+DATE format yyyy-mm-dd 
+ options for optional specification:
+NOT NULL 
+PRIMARY KEY 
+AUTO_INCREMENT
+FORIEGN KEY
+
+`Describe <table name>` shows contents of table
+
+
+`Insert into  <table name> (
+<column name>,
+<column name>,
+<column name>,
+<column name>,
+<column name>) 
+Values 
+(
+<value>, 
+<value>, 
+<value>,
+<value>, 
+<value>
+);` to insert info into the table
+
+
+`Alter table <tablename> Modify <columnname> <column type> <optoinal specifications>;` ;to change the type or  optoinal specifications
+
+`Alter table <table name> Add <column name> <column type> <optional specification>;` to make changes to the table
+ 
+`Alter table drop  column <table name> DROP COLUMN <column name>;` to drop a column from a database
+
+
+`Select <column name> from <table name>;` to select a column in the table
+
+`Select * from <table name>;` * = everything  to see all the column in the table 
+
+`select <column name> from <table name> where <conditoin>;`
+
+##Examples
+
+select * from membership where name is like "b%"
+
+select *  from membership where paid = "no
+"

@@ -1,6 +1,6 @@
  # MYSQL
-
- `mysql -u root -p then put in password`  do start mysql
+## To start mysql
+ `mysql -u root -p then put in password`  
 
  `show database;` to show what databases you have
 

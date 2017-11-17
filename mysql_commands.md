@@ -2,22 +2,25 @@
 ## To start mysql
  `mysql -u root -p then put in password`  
 
- `show database;` to show what databases you have
-
- `create Database;` to create a database
-
-`use <database name>;` to use the database
-
- `create table <table name> (
+## To show what databases you have
+ `show databases;` 
+## To create a database
+`create Database <database name>;` 
+## To use the database
+`use <database name>;` 
+## To show what tables you have
+`show tables;`  
+## To create a table
+ ```create table <table name> (
  <column name> <column type> <optional specification>,
-  <column name> <column type> <optional specification>,
+ <column name> <column type> <optional specification>,
  <column name> <column type> <optional specification>,
  <column name> <column type> <optional specification>,
  <column name> <column type> <optional specification>
- );` to create a table
+ );``` 
 
- `options for column type:
- int = numbers
+ ## Options for column type:
+ `int = numbers
  VARCHAR(<length>)
  DATE format yyyy-mm-dd
  options for optional specification:
@@ -26,35 +29,28 @@
  AUTO_INCREMENT
  foriegn key`
 
- `describe <table name>` shows contents of table
+## Shows contents of table
+ `describe <table name>` 
 
-
+## To insert info into the table
  `insert into  <table name> (
- <column name>,
- <column name>,
- <column name>,
- <column name>,
- <column name>)
+ <column name>,<column name>,<column name>,<column name>,<column name>)
  Values
  (
- <value>,
- <value>,
- <value>,
- <value>,
- <value>
- );` to insert info into the table
+ <value>,<value>,<value>,<value>, <value>
+ );` 
 
-
- `alter table <tablename> Modify <columnname> <column type> <optoinal specifications>;` ;to change the type or  optoinal specifications
-
- `alter table <table name> Add <column name> <column type> <optional specification>;` to make changes to the table
-
- `alter table drop  column <table name> DROP COLUMN <column name>;` to drop a column from a database
-
-
- `select <column name> from <table name>;` to select a column in the table
-
- `select * from <table name>;` * = everything  to see all the column in the table
+## To change the type or  optoinal specifications
+ `ALTER TABLE <tablename> MODIFY <columnname> <column type> <optoinal specifications>;` 
+## To make changes to the table
+ `ALTER TABLE <table name> ADD<column name> <column type> <optional specification>;` 
+## To drop a column from a database
+`ALTER TABLE <table name> DROP COLUMN <column name>;` 
+## To select a column in the table
+`select <column name> from <table name>;` 
+ 
+ ## To see all the column in the table
+ `select * from <table name>;` (* = everything)  
 
  ## Examples
 

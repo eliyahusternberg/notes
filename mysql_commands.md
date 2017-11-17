@@ -17,9 +17,10 @@
  <column name> <column type> <optional specification>,
  <column name> <column type> <optional specification>,
  <column name> <column type> <optional specification>
- );``` 
+ );```
 
- ## Options for column type:
+## Options for column type
+ 
  `int = numbers
  VARCHAR(<length>)
  DATE format yyyy-mm-dd
@@ -30,7 +31,7 @@
  foriegn key`
 
 ## Shows contents of table
- `describe <table name>` 
+ `describe <table name>;` 
 
 ## To insert info into the table
  `insert into  <table name> (
@@ -49,10 +50,10 @@
 ## To select a column in the table
 `select <column name> from <table name>;` 
  
- ## To see all the column in the table
+## To see all the column in the table
  `select * from <table name>;` (* = everything)  
 
- ## Examples
+## Examples
 
  `select * from membership where name is like "b%"`
 

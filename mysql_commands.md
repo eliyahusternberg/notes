@@ -61,7 +61,7 @@
  `select *  from membership where paid = "no"`
 ## To delet a value from the table
 DELETE FROM table_name WHERE condition;
-##To update a table 
+## To update a table 
 UPDATE <table name>  set <column name> WHERE <conditoin>
 
 ## Example

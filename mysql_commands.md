@@ -17,7 +17,8 @@
  <column name> <column type> <optional specification>,
  <column name> <column type> <optional specification>,
  <column name> <column type> <optional specification>
- );```
+ );
+ ```
 
 ## Options for column type
  

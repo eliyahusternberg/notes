@@ -64,7 +64,7 @@ DELETE FROM table_name WHERE condition;
 ##To update a table 
 UPDATE <table name>  set <column name> WHERE <conditoin>
 
-##example
+## Example
 `UPDATE students SET seat_location="b-4" WHERE name= ephraim`;
 ## To do 2  things at once
 select * from students where seat_location  like 'a%' and teacher_id=3;

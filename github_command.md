@@ -1,20 +1,31 @@
-# GIT INIT - Create a new repository
-
-## Example
-
+# Create a new repository
 `git init`
 
-# GIT STATUS - see the status of the repository that was created
-
-## Example
-
+# See the status of the repository that was created
 `git status`
-
-# GIT ADD - track the repository
-
-## Example
-
+# Track the repository
 `git add <file>`
 
-## make a branch
-git checkout -b <branch name>
+# Make a branch
+`git checkout -b <branch name>`
+
+# Show all the commits
+`git log`
+
+# Switch to a different branch
+`git checkout <branch>`
+
+# To see what branches you have 
+`git branch`
+
+# To merge
+`git merge <branch>`
+
+# To commit
+`git commit -m "<message>"`
+
+# Changes to tracked files
+`git diff`
+
+# To push to github
+`git push -u origin master`

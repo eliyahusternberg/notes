@@ -15,3 +15,6 @@
 ## Example
 
 `git add <file>`
+
+## make a branch
+git checkout -b <branch name>

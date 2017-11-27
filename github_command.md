@@ -19,13 +19,19 @@
 `git branch`
 
 # To merge
-`git checkout <branch that I want the SECOND branch to be merged into>`
-`git merge <SECOND branch>`
+
+```
+git checkout <branch that I want the SECOND branch to be merged into>
+git merge <SECOND branch>
+```
 
 ## Example
 If I want to merge `dev` branch into `master` branch I would do
-`git checkout master`
-`git merge dev`
+
+```
+git checkout master
+git merge dev
+```
 
 
 # To commit

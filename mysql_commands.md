@@ -6,7 +6,7 @@
  `show databases;` 
 ## To create a database
 `create Database <database name>;` 
-## To use the database
+## To change to a specific database
 `use <database name>;` 
 ## To show what tables you have
 `show tables;`  
@@ -50,6 +50,10 @@
 `ALTER TABLE <table name> DROP COLUMN <column name>;` 
 ## To select a column in the table
 `select <column name> from <table name>;` 
+
+## To select multiple columns in the table
+`select <column name>, <column name>, <column name> from <table name>;` 
+ 
  
 ## To see all the column in the table
  `select * from <table name>;` (* = everything)  
@@ -68,3 +72,26 @@ UPDATE <table name>  set <column name> WHERE <conditoin>
 `UPDATE students SET seat_location="b-4" WHERE name= ephraim`;
 ## To do 2  things at once
 select * from students where seat_location  like 'a%' and teacher_id=3;
+
+
+
+## inner join
+```
+select * from <table>
+inner join <table that you want to join>
+on <id of the first table> = <id of 2nd table>;
+```
+
+```
+select * from <first table>
+inner join <table that you want to join>
+on <first table>.<foreign key> = <second table>.<primary key>;
+```
+## example
+```
+select * from membership
+inner join `families`
+on membership.family_id = families.id;
+```
+
+

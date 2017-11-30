@@ -5,7 +5,7 @@
 # capitilze just makes the first word capitilized
 `<word = word.capitalize()>`
 
-# Example
+## Example
 ```ron =bob 
 ron = ron.caitalize()```
 

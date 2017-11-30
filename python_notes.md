@@ -29,4 +29,4 @@ word[0:0 till 4 >or[0:]gets the whole word :1 gets the first letter`
 `<word = [1,2,3,4]`
 
 ## Example 
-`shopping list = [apples,oranges,pears,plwms,etc]	
+`shopping list = [apples,oranges,pears,plwms,etc]`	
